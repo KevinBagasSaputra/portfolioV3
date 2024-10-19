@@ -1,0 +1,282 @@
+*,
+html,
+body{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+/* Latar nav - hero START */
+.latar-nav-hero{
+    width: 100%;
+    /* height: 100vh; */
+    height: 100%;
+    background-image: url('../img/latar/latar-nav-hero.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* Latar nav - hero END */
+
+/* Floating START */
+    .float{
+        min-width: 25%;
+        max-width: 10%;
+
+        display: flex;
+        justify-content: right;
+        flex-wrap: wrap;
+    }
+
+    .float .container{
+        position:absolute;
+
+    }
+
+    .float .container img{
+        min-width: 50px;
+        max-width: 100px;
+
+        object-fit: cover;
+        background-color: unset;
+
+        border-radius: 100px;
+        border: 5px solid white;
+        background-color: black;
+
+    }
+/* Floating END */
+
+
+
+/* Navbar START */
+    nav{
+        width: 100%;
+        background-color: black;
+    }
+
+    nav .container{
+        padding: 10px;
+    }
+
+    nav .container ul{
+        display: flex;
+        justify-content: space-evenly;
+
+        flex-wrap: wrap-reverse;
+    }
+
+    nav .container ul li{
+        list-style-type: none;
+    }
+
+        /* Link */
+            nav .container ul li a{
+                color: white;
+                text-decoration: none;
+
+                margin-left: 10px;
+                margin-right: 10px;
+
+                padding: 10px;
+            } nav .container ul li a:hover{
+                text-decoration: underline;
+                text-underline-offset: 5px;
+            }
+
+
+
+                /* Judul */
+                    nav .container ul li .judul{
+                        font-size: 1.3rem;
+                        font-weight: 600;
+                    }
+                /* Judul */
+        /* Link */
+
+        /* Marquee */
+            nav .container ul li marquee{
+                border: 1px solid white;
+            }
+            
+            nav .container ul li marquee p{
+                    color: white;
+                    background-color: black;
+                }
+        /* Marquee */
+
+/* Navbar END */
+
+
+/* Hero START */
+.hero{
+    width: 100%;
+
+    margin-top: 50px;
+}
+
+.hero .container{
+    padding: 10px;
+}
+
+.hero .container ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+    /* Passion */
+        .hero .container ul .passion{
+            color: white;
+            font-weight: 700;
+            
+            position: absolute;
+            font-style: oblique;
+
+
+            text-decoration: underline;
+            text-underline-offset: 5px;
+
+            text-shadow: 2px 0 2px gray;
+        }
+    /* Passion */
+
+.hero .container ul img{
+    min-width: 100px;
+    max-width: 300px;
+
+    border-radius: 100px;
+    object-fit: cover;
+
+    margin-top: 40px; /*untuk passion*/
+}
+        /* Text */
+            .hero .container ul .text{
+                color: white;
+                align-content: center;
+                
+                margin: 50px;
+            }
+
+            /* Link */
+                .hero .container ul  a{
+                    min-width: 100px;
+                    max-width: 150px;
+
+
+                    color: black;
+                    text-decoration: none;
+
+                    background-color: white;
+                    border: 1px solid black;
+                    border-radius: 60px;
+
+                    text-align: center;
+                    padding: 4px;
+
+                    margin-top: 50px;
+                    display: block;
+                    float: right;
+                }.hero .container ul a:hover{
+                    color: white;
+                    background-color: black;
+                    border: 1px solid white;
+                }
+                
+            /* Link */
+
+
+            /* h2 dan p*/
+                .hero .container ul .text h2{
+                    color: white;
+                    font-size: 1.7rem;
+                }
+
+                .hero .container ul .text p{
+                    font-size: 1rem;
+                }
+            /* h2 dan p*/
+
+        /* Text */
+/* Hero END */
+
+
+/* Hero-section START */
+.hero-section{
+    width: 100%;
+    margin-top: 70px;
+}
+
+.hero-section .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    padding: 20px;
+}
+
+.hero-secton .container ul{
+
+}
+
+    /* Floating */
+        .float-hatsune{
+            min-width: 50px;
+            max-width: 100px;
+        }
+    /* Floating */
+
+    /* TEXT */
+        .hero-section .container ul .text{
+            min-width: 300px;
+            max-width: 700px;
+
+        }
+
+        .hero-section .container ul .text h2{
+            color: white;
+        }
+
+        .hero-section .container ul .text p{
+            color: white;
+        }
+    /* TEXT */
+/* Hero-section END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Github START */
+.github{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+
+}
+
+.github .container{
+    display: flex;
+    justify-content: end;
+}
+
+.github .container a{
+    color: white;
+
+    padding: 10px;
+}
+/* Github END */
